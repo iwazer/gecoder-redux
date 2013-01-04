@@ -27,7 +27,7 @@ pkg
 #
 # For MacOS:
 #
-#.DS_Store
+.DS_Store
 
 # For TextMate
 #*.tmproj
@@ -46,3 +46,14 @@ pkg
 
 # For rubinius:
 #*.rbc
+
+# for gecode lib
+ext/Makefile
+ext/gecode.*
+ext/*.o
+ext/mkmf.log
+lib/bin
+lib/gecode.bundle
+lib/include
+lib/lib
+Gemfile.lock
